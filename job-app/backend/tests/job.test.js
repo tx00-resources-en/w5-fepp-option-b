@@ -124,3 +124,4 @@ describe("Job Controller", () => {
     await api.delete(`/api/jobs/${invalidId}`).expect(400);
   });
 });
+

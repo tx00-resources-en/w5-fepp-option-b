@@ -14,3 +14,4 @@ const JobListing = ({job}) => {
 };
 
 export default JobListing;
+

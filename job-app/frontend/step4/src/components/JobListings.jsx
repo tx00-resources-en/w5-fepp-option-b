@@ -12,3 +12,4 @@ const JobListings = ({ jobs }) => {
 };
 
 export default JobListings;
+
