@@ -6,7 +6,7 @@
   "scripts": {
     "start": "cross-env NODE_ENV=production node index.js",
     "dev": "cross-env NODE_ENV=development nodemon index.js",
-    "test": "cross-env NODE_ENV=test jest --verbose --runInBand",
+    "test": "cross-env NODE_ENV=test NODE_OPTIONS=--experimental-vm-modules jest --verbose --runInBand",
     "data:import": "node seeder",
     "data:destroy": "node seeder -d"
   },
@@ -38,4 +38,3 @@
     "supertest": "^7.1.4"
   }
 }
-
